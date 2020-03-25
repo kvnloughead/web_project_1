@@ -172,7 +172,6 @@
 
 .feynman {
     position: relative;
-    z-index: -1;
     height: 790px;
     background-color: #F2F2F2;
     display: flex;
@@ -281,7 +280,6 @@
 .footer {
     padding-top: 60px;
     position: relative;
-    z-index: -1;
     height: 100vh;
     background-color: #000000;
     display: flex;
@@ -307,22 +305,28 @@
 
 .footer__column-heading {
     color: white;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .footer__column_content_info {
 
 }
 
-.footer__social-icon {
-    color: white;
-    text-decoration: none;
-}
 
 .footer__column-links {
-    z-index: 1;
     color: white;
     text-decoration: none;
+    line-height: 30px;
+    font-size: 18px;
+    /* normal seems too bold, but lighter doesn't change anything */
+    font-weight: lighter;
 }
+
+.footer__social-icon {
+}
+
 
 .logo_place_footer {
     top: 80px;
@@ -338,5 +342,4 @@
     font-weight: normal;
     line-height: 25px;
     font-size: 18px;
-    
 }
