@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Kevin Loughead's Portfolio at Practicum by Yandex">
+  <meta name="keywords" content="html, css, javascript">
+  <meta name="author" content="Kevin Loughead">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Your Portfolio</title>
+</head>
+<body class="page">
+  <header class="header centered-block">
+    <h1 class="centered-block"><a href="#" class="header__link" lang="es">Kevin Loughead</a></h1>
+  </header>
+  <nav class="menu page__menu centered-block">
+    <a href="#beginner" class="menu__link menu__link_active">First steps in HTML and CSS</a>
+    <a href="#frameworks" class="menu__link">JavaScript libraries</a>
+    <a href="#practice" class="menu__link">Practicing HTML, CSS, and JavaScript</a>
+  </nav>
+  <main class="content centered-block">
+    <section id="beginner">
+      <h2 class="content__title">First steps in HTML and CSS</h2>
+      <ul class="flex-row flex-row_space_bottom list">
+        <li class="project project_name_music-album project_width_l project_height_l">
+          <a class="project__overlay" href="#">Album Cover</a>
+        </li>
+        <li class="project project_name_design-principles project_width_l project_height_l">
+          <a class="project__overlay" href="#">Landing page</a>
+        </li>
+      </ul>
+    </section>
+    <section id="frameworks">
+      <h2 class="content__title">JavaScript Libraries</h2>
+      <div class="flex-row flex-row_space_bottom flex-row_reversed">
+        <div class="flex-column flex-column_reversed">
+          <div class="project project_width_l project_height_s">
+            <video class="project__video" src="https://code.s3.yandex.net/web-code/like.mp4" autoplay muted loop></video>
+          </div>
+
+            <ul class="flex-row list">
+              <li class="project project_name_slider project_width_m project_height_m">
+                <a class="project__overlay" href="#">Slider</a>
+              </li>
+              <li class="project project_name_reactive project_width_m project_height_m">
+                <a class="project__overlay" href="#">React, Vue, Angular</a>
+              </li>
+            </ul>
+
+        </div>
+        <div class="project project_width_l project_height_xl">
+          <video class="project__video" src="https://code.s3.yandex.net/web-code/procrastinate-eng.mov" autoplay muted loop></video>
+        </div>
+      </div>
+    </section>
+    <section id="practice">
+      <h2 class="content__title">Practicing HTML, CSS, and JavaScript</h2>
+      <ul class="flex-row list">
+        <li class="project project_name_how-to-study project_width_m project_height_m">
+          <a class="project__overlay" href="#">CSS Animations</a>
+        </li>
+        <li class="project project_name_across-usa project_width_l project_height_m">
+          <a class="project__overlay" href="#">Adaptive Layout</a>
+        </li>
+        <li class="project project_name_around project_width_m project_height_m">
+          <a class="project__overlay" href="#">Web App in JavaScriptf</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer centered-block">
+    <div class="footer__logo"></div>
+  </footer>
+</body>
+</html>
+
