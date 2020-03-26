@@ -10,13 +10,13 @@
 }
 
 .header {
-    z-index: -1;
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
     background-color: #F2F2F2;
     /* parameters for the header section */
     display: flex;
+    position: relative; 
 }
 
 .header__title {
@@ -38,6 +38,10 @@
     width: 388px;
     align-self: flex-end;   
     z-index: 1;
+}
+
+.header__text {
+    margin: 0;
 }
 
 .header__link {
@@ -72,8 +76,8 @@
     z-index: 1;
     top: 30px;
     left: 64px;
-    width: 200px;
-    height: 40px;
+    width: 154px;
+    height: 31px;
     background-size: cover;
 }
 
@@ -89,7 +93,7 @@
 
 .two-columns {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 80%;
 }
 
@@ -114,7 +118,11 @@
     margin-bottom: 30px;
 }
 
-.emphatic-text {
+.two-columns__paragraph:last-of-type {
+    margin-bottom: 0px;
+}
+
+.two-columns__span-accent {
     font-weight: bold;
 }
 
@@ -178,6 +186,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 100px;
 }
 
 .feynman__background-image {
@@ -194,7 +203,6 @@
 
 .feynman__title {
     border: 0px;
-    margin-top: 100px;
     margin-bottom: 0px;
     width: 775px;
     text-align: center;
@@ -226,8 +234,7 @@
 .kaufman {
     position: relative;
     z-index: -1;
-    height: 967px;
-    background-color: #000000;
+    background-color: #1F1F1F;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -241,10 +248,12 @@
     background-image: url('../images/triangle.svg');
     width: 877px;
     height: 877px;
-    top: 30px;
-    /* -210px and no rotation doesn't look right */
-    right: -180px;
-    transform: rotate(20deg);
+    /* Below are the settings I was told to use after the first code review */
+    /* I believe it looks even less like the brief than my first attempt. */
+    right: -210px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .section-title_theme_dark {
