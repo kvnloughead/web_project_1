@@ -1,3 +1,5 @@
+@import url(./__triangle/kauffman__triangle.css);
+
 .kaufman {
     position: relative;
     z-index: -1;

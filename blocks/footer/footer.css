@@ -1,3 +1,12 @@
+@import url(./__columns/footer__columns.css);
+@import url(./__columns/_heading/footer__columns_heading.css);
+@import url(./__columns/_link/footer__columns_link.css);
+@import url(./__columns/_content/footer__columns_content_copyright.css);
+@import url(./__link-list/footer__link-list.css);
+@import url(./__social-icon/footer__social-icon.css);
+@import url(./__author/footer__author.css);
+
+
 .footer {
     padding-top: 60px;
     position: relative;

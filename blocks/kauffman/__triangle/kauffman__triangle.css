@@ -1,0 +1,13 @@
+.kaufman__triangle {
+    z-index: -1;
+    position: absolute;
+    background-image: url('../../../images/triangle.svg');
+    width: 877px;
+    height: 877px;
+    /* Below are the settings I was told to use after the first code review */
+    /* I believe it looks even less like the brief than my first attempt. */
+    right: -210px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
