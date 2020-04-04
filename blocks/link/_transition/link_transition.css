@@ -1,0 +1,15 @@
+/* Not sure that this is consistent with BEM, but I would like to be able to reuse .link_transition.  Hence
+/* I am reluctant to modify block__link directly. */
+
+.link_transition {
+    transition: opacity ease-in-out .3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    opacity: 1;
+}
+
+.link_transition:hover {
+    opacity: 0.2;
+}
