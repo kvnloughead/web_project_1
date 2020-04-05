@@ -7,4 +7,6 @@
     top: 64px;
     height: 568px;
     width: 568px;
+    /* Rotation of 15 degrees does not match picture in brief */
+    transform: rotate(-38deg);
 }

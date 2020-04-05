@@ -1,0 +1,4 @@
+.video__iframe {
+    display: inline;
+    z-index: 1;
+}

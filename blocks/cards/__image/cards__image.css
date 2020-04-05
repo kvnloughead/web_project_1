@@ -1,0 +1,7 @@
+.cards__image {
+    border-collapse: separate;
+    border-radius: 50%;
+    align-self: center;
+    width: 160px;
+    margin-bottom: 43px;
+}

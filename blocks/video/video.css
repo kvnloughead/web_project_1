@@ -1,0 +1,10 @@
+@import url(./__iframe/video__iframe.css);
+
+.video {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: visible;
+    /* Guessing at this margin */
+    margin-bottom: -60px;
+}

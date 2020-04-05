@@ -1,0 +1,7 @@
+.cards__description {
+    line-height: 23px;
+    font-weight: normal;
+    justify-content: center;
+    /* ? Without this width declaration, description doesn't match brief */
+    width: 216px;
+}

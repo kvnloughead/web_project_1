@@ -10,7 +10,7 @@
     min-height: 600px;
     max-height: 756px;
     background-color: #F2F2F2;
-    /* parameters for the header section */
     display: flex;
     position: relative; 
+    overflow: hidden;
 }
