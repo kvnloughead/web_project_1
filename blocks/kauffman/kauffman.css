@@ -9,5 +9,5 @@
     justify-content: flex-start;
     align-items: center;
     overflow: hidden;
-    padding-bottom: 90px;
+    padding: 90px 0 0 0;
 }

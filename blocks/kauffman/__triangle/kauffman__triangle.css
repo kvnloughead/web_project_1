@@ -5,9 +5,16 @@
     width: 877px;
     height: 877px;
     /* Below are the settings I was told to use after the first code review */
-    /* I believe it looks even less like the brief than my first attempt. */
-    right: -210px;
+    /* It didn't look very much like it did in the brief */
+    /* right: -210px; */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    /* In this new brief the triangle has shifted again... */
+    /* and this still doesn't look right */
+    right: -160px; 
+    top: 150px;
+    transform: rotate(22deg);
 }
+
+

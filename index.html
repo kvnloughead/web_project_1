@@ -145,11 +145,15 @@ who are committed to improving education so students everywhere can
 gain the skills and knowledge to be successful in school, careers and life.
                     </p>
                     <p class="khan__quote-author">George Lucas</p>
-                    <p class="khan__quote-author-subline">Filmaker</p>
-                    <div class="khan__book-container">
-                        <img class="khan__book-pic" src="" alt="Cover of the book 'One World Schoolhouse'.">
+                    <p class="khan__quote-element-subline">Filmaker</p>                    
+                    <!-- How could I do this without either making a flex-row container or putting the anchor inside book-container? -->
+                    <div class="khan__row">
+                        <div class="khan__book-container">
+                            <img class="khan__book-pic" src="./images/book.png" alt="Cover of the book 'One World Schoolhouse'.">                
+                        </div>
+                        <a class="khan__buy-link link_transition" href="#">Buy book &rarr;</a>    
                     </div>
-                    <a href="#">Buy book &rarr;</a>                
+                    
                 </div>
             </section>
             
@@ -200,6 +204,18 @@ gain the skills and knowledge to be successful in school, careers and life.
                     </li>
                 </ol>
             </section>
+
+            <section class="resources">
+                <h2 class="section-title">Useful resources</h2>
+                <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
+                <ul class="resource__logo-zone">
+                    <img src="./images/logo/tedED.png" alt="Logo for TED Ed" class="resource__logo link_transition">
+                    <img src="./images/logo/Medium.png" alt="Logo for Medium" class="resource__logo link_transition">
+                    <img src="./images/logo/dezeen.png" alt="Logo for de zeen" class="resource__logo link_transition">
+                    <img src="./images/logo/goodreads.png" alt="Logo for goodreads" class="resource__logo link_transition">
+                </ul>
+            </section>
+
         </main>
         <footer class="footer">
             <div class="footer__columns">

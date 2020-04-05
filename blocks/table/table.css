@@ -10,5 +10,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;   
-    margin-bottom: 100px; 
+    /* margin-bottom: 100px;  */
+    padding: 0;
 }
