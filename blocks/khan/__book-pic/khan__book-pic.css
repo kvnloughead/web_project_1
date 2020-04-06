@@ -1,4 +1,6 @@
 .khan__book-pic {
+    display: inline;
     width: 620px;
     min-height: 100%; 
+    margin-right: 20px;
 }
