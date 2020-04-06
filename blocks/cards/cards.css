@@ -4,7 +4,7 @@
 @import url(./__image/cards__image.css);
 
 .cards {
-    width: 80%;
+    width: 920px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
