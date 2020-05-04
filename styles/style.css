@@ -12,9 +12,3 @@
     /* this ensures that all content is centered on screens wider than 1600px */
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-.header__title {
-    font-size: 102px;
-    line-height: 96px;
-    color: red;
-}
