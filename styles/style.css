@@ -1,3 +1,7 @@
+@import url('logo.css');
+@import url('header.css');
+@import url('table.css');
+
 .page {
     min-width: 1100px;
     /* we don't know how to make mobile versions of websites yet, */
@@ -9,23 +13,8 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {
-    height: 100vh;
-    min-height: 600px;
-    max-height: 756px;
-    /* parameters for the header section */
-}
-
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
-    height: 568px;
-    width: 568px;
-}
-
-/* including elements with key-value modifiers */
-.table__cell_theme_dark {
-    width: 200px;
-    color: white;
-    margin-right: 0;
-    margin-top: 80px;
+.header__title {
+    font-size: 102px;
+    line-height: 96px;
+    color: red;
 }

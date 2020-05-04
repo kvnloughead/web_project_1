@@ -1,0 +1,18 @@
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* parameters for the header section */
+}
+
+.header__title {
+  font-size: 102px;
+  line-height: 96px;
+  color: red;
+}
+
+/* here we have two examples of selectors in order to remind you how to set styles for elements */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
