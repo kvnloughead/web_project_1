@@ -27,7 +27,7 @@
 
 .feynman__link {
   position: absolute;
-  top: 50%;
+  top: calc(50% - 50px);
   right: 48px;
   font-size: 36px;
   line-height: 51px;

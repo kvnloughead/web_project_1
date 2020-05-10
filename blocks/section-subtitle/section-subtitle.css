@@ -4,3 +4,8 @@
   line-height: 24px;
   margin: 0 0 60px 0;
 }
+
+.section-subtitle_theme_dark {
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
